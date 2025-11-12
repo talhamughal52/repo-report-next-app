@@ -17,10 +17,10 @@ const assets = {
 
 const navigation = [
   { label: "Dashboard", icon: assets.dashboard },
-  { label: "Lending", icon: assets.lending, active: true },
-  { label: "Insights", icon: assets.insights },
-  { label: "Accounting", icon: assets.accounting },
-  { label: "Payments", icon: assets.payments },
+  { label: "Reports", icon: assets.lending, active: true },
+  { label: "Submit Vehicle", icon: assets.insights },
+  { label: "Submit Tow Report", icon: assets.accounting },
+  { label: "Search Vehicles", icon: assets.payments },
 ];
 
 const lendingLinks = [
@@ -117,7 +117,7 @@ export default function Home() {
             </nav>
             <div className="rounded-2xl bg-white/5 p-5">
               <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#93a0ff]">
-                Lending
+                Reports
               </p>
               <ul className="mt-4 space-y-3 text-sm">
                 {lendingLinks.map((item) => (
@@ -185,7 +185,7 @@ export default function Home() {
         <main className="flex-1 bg-[#f5f6fa] px-10 py-10">
           <header className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
             <h1 className="text-[26px] font-semibold tracking-tight">
-              Application
+              Reports
             </h1>
             <div className="flex flex-1 flex-col items-stretch gap-6 lg:flex-row lg:items-center lg:justify-end">
               <div className="relative w-full max-w-sm">
