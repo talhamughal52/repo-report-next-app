@@ -178,7 +178,9 @@ export default function Home() {
                 Chat with our support team for quick assistance.
               </p>
             </div>
-            <p className="text-xs text-[#c4cefe]/70">Jifie 2021</p>
+            <p className="text-xs text-[#c4cefe]/70 text-center">
+              Repo Report - @2025
+            </p>
           </div>
         </aside>
 
